@@ -358,10 +358,7 @@
     font-size: 50px;
   }
 
-  #texto{
-    color: black;
-    font-size: 25px;
-  }
+
 
   
   .cadastro-button{
@@ -377,12 +374,14 @@
   }
 
   #prototipo-img{
-    justify-content: center;
-    align-items: center;
-   
-   
+      width: 906px;
   }
  
+  #projeto-topics{
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+  }
   .container-projetos{
     display: flex;
     justify-content: center;
@@ -398,7 +397,7 @@
     width: 1500px;
     height: 851px;
     margin-top: 50px;
-  
+    padding: 50px 0px 0px 0px;
     border-style: solid;
     border-width: 0.5px;
     border-color: #e4e4e4;
@@ -416,10 +415,8 @@
     width: 36%;
   }
 
-  
-  .form{
-    top: 5px;
-    border-radius: 5px;
+  .prototipo-class{
+    margin-top: 40px;
   }
 
   /* separação */
@@ -461,7 +458,39 @@
     border-radius: 60px;
   }
   
-  
+  #formulario{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+  }
+  .input-contato{
+    background-color: #F5F5F5;
+    border: none;
+    height: 57px;
+    width: 780px;
+    border-radius: 30px;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  .input-contato-mensagem{
+    background-color: #F5F5F5;
+    border: none;
+    height: 216px;
+    width: 780px;
+    border-radius: 30px;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  *::placeholder {
+    /* modern browser */
+    color: #1D324A;
+    opacity: 1;
+ 
+}
   
   
   
