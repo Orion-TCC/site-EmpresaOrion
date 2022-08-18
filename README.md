@@ -1,10 +1,10 @@
-<img align="right" src="https://cdn.discordapp.com/attachments/785390806470230056/1008625285027078175/consAmarela-fundo.png" width="300px">
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/68068215/185445315-30089410-1bcd-4996-8489-9b4f3535866c.png">
+</div>
 
-# 🌟 Orion - Referência em Tecnologia
-Site no formato landing page sobre a empresa Orion, especializada em desenvolvimento de softwares e resoluções de problemas para empresas de pequeno e médio porte.
+<p>Site no formato landing page sobre a empresa Orion, especializada em desenvolvimento de softwares e resoluções de problemas para empresas de pequeno e médio porte. Logo no começo, apresentamos a visão, missão e valores da empresa; plataformas que atuamos; equipe; projetos e um formulário de contato. </p>
 
 <br>
-
 
 # 🚀 Skills
 <div align="left">
@@ -21,3 +21,6 @@ Site no formato landing page sobre a empresa Orion, especializada em desenvolvim
 ‣ 🙅🏻‍♀️ [Marina Liz](https://github.com/m-arina)
 <br>
 ‣ 🙅🏻‍♂️ [Leandro Coelho](https://github.com/lean-dro)
+<br>
+‣ 🙅🏻‍♀️ [Gislaine Coutinho](https://github.com/Gislaine09)
+
