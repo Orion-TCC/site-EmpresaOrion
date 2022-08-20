@@ -301,7 +301,7 @@ header {
   margin-top: 40px;
   justify-content: center;
   gap: 52px;
-  padding: 0 60px 0 60px;
+  padding: 0 100px 0 100px;
 }
 
 .integrantes{
@@ -309,8 +309,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 515px;
+  width: 380px;
+  height: 490px;
   border-style: solid;
   border-width: 0.5px;
   border-color: #e4e4e4;
@@ -321,6 +321,10 @@ header {
 
 .int-name{
   margin-top: 20px;
+}
+
+#int-img{
+  width: 200px;
 }
 
 .int-function{
@@ -347,19 +351,10 @@ header {
 }
 
 /* nossos projetos */
-
 #headingBlue{
   color: #1189A1;
   font-size: 50px;
 }
-
-#highlight-purple2{
-  color: #6f4a9f;
-  font-size: 50px;
-}
-
-
-
 
 .cadastro-button{
   margin-top: 30px;
@@ -374,7 +369,7 @@ header {
 }
 
 #prototipo-img{
-    width: 906px;
+  width: 906px;
 }
 
 #projeto-topics{
@@ -382,13 +377,14 @@ header {
   font-size: 25px;
   margin-left: 20px;
 }
+
 .container-projetos{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 140px;
+  margin-top: 90px;
 }
 
 .projeto-class{
@@ -419,11 +415,13 @@ header {
   margin-top: 40px;
 }
 
+
 /* separação */
 hr {
   margin: 80px 0;
 }
 
+/* fale conosco */
 .container-contato{
   display: flex;
   flex-direction: row;
@@ -466,6 +464,7 @@ hr {
   align-items: center;
   gap: 30px;
 }
+
 .input-contato{
   background-color: #F5F5F5;
   border: none;
@@ -475,6 +474,7 @@ hr {
   font-size: 24px;
   padding-left: 20px;
 }
+
 .input-contato-mensagem{
   background-color: #F5F5F5;
   border: none;
@@ -486,28 +486,31 @@ hr {
   padding-top: 10px;
   resize: none;
 }
+
 *::placeholder {
   /* modern browser */
   color: #1D324A;
   opacity: 1;
-
 }
 
-footer{
-  margin-top:  30px;
+/* footer */
+.container-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:  100px;
   background-color: #1189a1;
 }
 
 #logo-img{
-  margin-left: 830px;
+  padding-top: 10px;
 }
 
-#pFooter{
-  align-items: center;
+#copyright{
   font-family: "Raleway Bold", Arial;
-  text-align: center;
-  color: white;
-  font-size: 25px;
+  color: #FAFAD2;
+  font-size: 24px;
 }
 
 
