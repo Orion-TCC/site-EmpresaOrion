@@ -22,13 +22,13 @@
   padding: 0;
 }
 
-body {
+html, body {
   color: #1d324a;
-}
-
-html{
+  text-rendering: optimizeLegibility;
+  height: 100vh;
   scroll-behavior: smooth;
 }
+
 
 /* background image (galaxy)*/
 .bg-header {
@@ -75,6 +75,7 @@ html{
   margin-top: -5px;
   margin-right: 5px;
   width: 320px;
+  transition: 0.6s;
 }
 
 /* header e navbar */
@@ -84,6 +85,7 @@ header {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
+  transition: 0.6s;
 }
 
 .navbar {
@@ -301,7 +303,7 @@ header {
   margin-top: 40px;
   justify-content: center;
   gap: 52px;
-  padding: 0 100px 0 100px;
+  padding: 0 130px 0 130px;
 }
 
 .integrantes{
@@ -349,6 +351,7 @@ header {
 #social-link:hover{
   color: #1189A1;
 }
+
 
 /* nossos projetos */
 #headingBlue{
@@ -414,6 +417,25 @@ header {
 
 .prototipo-class{
   margin-top: 40px;
+}
+
+
+/* nossas parcerias */
+.container-parcerias{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway Bold", Arial;
+  margin-top: 100px;
+}
+
+.parcerias{
+  margin-top: 50px;
+}
+
+#parceria-img{
+  width: 550px;
 }
 
 
