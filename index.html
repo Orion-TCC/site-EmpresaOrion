@@ -22,39 +22,41 @@
 </head>
 
 <body>
-    <div class="bg-header">
-        <header>
+    
+    <header id="home">     
+        <!-- navbar --> 
+        <nav class="navbar">
             <!-- logo -->
-            <a href="#" class="logo-anim">
-                <img src="images/logoAmarelo-semSlogan.svg" class="logo-img" alt="Logo da empresa Orion">
+            <a href="#home" class="logo-anim">
+                <img id="logoImg" src="images/logoAmarelo-cortado.svg" alt="Logo da empresa Orion">
             </a>
-            <!-- navbar --> 
-            <nav class="navbar">
-                <a class="nav-item" href="#home">Home</a>
-                <a class="nav-item" href="#sobre">Sobre</a>
-                <a class="nav-item" href="#projetos">Projetos</a>
-                <a class="nav-item" href="#contatos">Contato</a>
-            </nav>
-        </header>
+            <ul id="navbar-list">
+                <li><a class="nav-item" href="#home">Home</a></li>
+                <li><a class="nav-item" href="#sobre">Sobre</a></li>
+                <li><a class="nav-item" href="#projetos">Projetos</a></li>
+                <li><a class="nav-item" href="#parceria">Parcerias</a></li>
+                <li><a class="nav-item" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
 
-        <!-- headings -->
         <div class="header-content anim-class">
-            <section class="main-content">
+            <div class="main-content">
+                <!-- headings -->
                 <div class="text-content">
                     <h1 id="heading">Uma referência no <span id="highlight-purple">céu</span>, assim como 
                         na <span id="highlight-purple">tecnologia</span>, inovando cada vez mais</h1>
                     <h3 class="sub-heading">Especializada no desenvolvimento softwares para empresas de pequeno e médio porte</h3>
-                    <a class="button-anim"><button class="contato-button">Entre em contato</button></a>
+                    <a class="button-anim" href="#contato"><button class="contato-button">Entre em contato</button></a>
                 </div>
-            </section>
+            </div>
         </div>
-        
-    </div>
+    </header>
 
+        
     <!-- main div -->
     <main class="container-content">
         <!-- sobre nós -->
-        <section class="section-sobre">
+        <section id="sobre" class="section-sobre">
             <h2 id="sobre" id="titulo-section">Sobre a <span id="highlight-cyan">empresa</span></h2>
             <div class="line mx-auto"></div>
             <p class="text-sobre">
@@ -139,7 +141,7 @@
                         </div>
                     </div>
                     <div class="integrantes">
-                        <img id="int-img" src="images/foguete.svg" alt="">
+                        <img id="int-img" src="images/kauan2.png" alt="">
                         <h3 class="int-name">Kauan Oliveira</h3>
                         <h5 class="int-function">Desenvolvedor Back-End e DBA</h5>
 
@@ -150,7 +152,7 @@
                         </div>
                     </div>
                     <div class="integrantes">
-                        <img id="int-img" src="images/foguete.svg" alt="Imagem de um foguete decolando de um notebook">
+                        <img id="int-img" src="images/caua.png" alt="Imagem de um foguete decolando de um notebook">
                         <h3 class="int-name">Cauã Mesquita</h3>
                         <h5 class="int-function">Desenvolvedor Full-Stack e DBA</h5>
 
@@ -222,7 +224,7 @@
 
 
         <!-- nossos projetos -->
-        <section class="section-projetos">
+        <section id="projetos" class="section-projetos">
             <div class="container-projetos">
                 <h1 id="titulo-section">Nossos <span id="highlight-cyan">projetos</span></h1>
                 <div class="line mx-auto"></div>
@@ -243,29 +245,22 @@
 
 
         <!--nossas parcerias-->
-        <section class="section-parcerias">
+        <section id="parceria" class="section-parcerias">
             <div class="container-parcerias">
                 <h1 id="titulo-section">Nossas <span id="highlight-cyan">parcerias</span></h1>
                 <div class="line mx-auto"></div>
                 <div class="parcerias">
                     <img id="parceria-img" src="images/logo-pyxis.png">
-
                 </div>
-
             </div>
-
         </section>
-
-
 
         <hr>
 
         <!-- contato -->
-        <section class="section-contato">
+        <section id="contato" class="section-contato">
             <div class="container-contato">
                 <img id="contato-img" src="images/contato.svg">
-
-              
                 <!-- fale conosco -->
                 <div class="form-contato">
                     <h1 id="titulo-section" style="margin-top: 20px;">Fale <span id="highlight-cyan">conosco</span></h1>
@@ -290,6 +285,9 @@
     
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
