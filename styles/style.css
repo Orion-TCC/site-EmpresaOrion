@@ -231,10 +231,8 @@ header.bg{
   background: linear-gradient(59.61deg, #EDEEF6 3.53%, rgba(217, 217, 217, 0) 98.56%);
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   border-radius: 60px;
-
-  transform: translateY(-0.25em);
+  /* transform: translateY(-0.25em); */
   transition: 0.5s;
-  
 }
 
 .id-img{

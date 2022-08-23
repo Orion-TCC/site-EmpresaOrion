@@ -12,7 +12,7 @@ var li5 = document.querySelector("ul > li:nth-child(5) > a");
             if (window.pageYOffset > 100) {
                 nav.classList.add('bg-white', 'shadow');
                 nav.style.transition = "all 0.8s";
-
+                nav.style.paddingTop = "10px"
                 logoImg.setAttribute('src', 'images/logoAzul-semSlogan.svg')
                 logoImg.style.transition = "all 1s";
 
@@ -26,7 +26,7 @@ var li5 = document.querySelector("ul > li:nth-child(5) > a");
             } else {
                 nav.classList.remove('bg-white', 'shadow');
                 nav.style.transition = "all 0s";
-
+                nav.style.paddingTop = "30px";
                 logoImg.setAttribute('src', 'images/logoAmarelo-cortado.svg');
                 logoImg.style.transition = "all 1s";
                 
