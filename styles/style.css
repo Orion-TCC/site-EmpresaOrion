@@ -403,7 +403,7 @@ header.bg{
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 90px;
+  margin-top: 15rem;
 }
 
 .projeto-class{
@@ -442,7 +442,7 @@ header.bg{
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 100px;
+  margin-top: 12rem;
 }
 
 .parcerias{
@@ -450,7 +450,7 @@ header.bg{
 }
 
 #parceria-img{
-  width: 550px;
+  width: 510px;
 }
 
 
