@@ -270,7 +270,7 @@ header.bg{
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 100px;
+  margin-top: 12rem;
 }
 
 .aplic-class{
@@ -300,6 +300,7 @@ header.bg{
   font-size: 30px;
 }
 
+
 /* nossa equipe */
 .container-equipe{
   display: flex;
@@ -307,7 +308,7 @@ header.bg{
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 50px;
+  margin-top: 8rem;
 }
 
 .equipe{
@@ -318,7 +319,7 @@ header.bg{
   margin-top: 40px;
   justify-content: center;
   gap: 52px;
-  padding: 0 130px 0 130px;
+  padding: 0 200px 0 200px;
 }
 
 .integrantes{
@@ -388,7 +389,8 @@ header.bg{
 }
 
 #prototipo-img{
-  width: 906px;
+  width: 850px;
+  margin-left: 4rem;
 }
 
 #projeto-topics{
@@ -411,12 +413,12 @@ header.bg{
   flex-direction: row;
   width: 1500px;
   height: 851px;
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 50px 0px 0px 0px;
   border-style: solid;
   border-width: 0.5px;
   border-color: #e4e4e4;
-  background: linear-gradient(59.61deg, #EDEEF6 3.53%, rgba(217, 217, 217, 0) 98.56%);
+  background-color: #EDEEF6;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   border-radius: 60px; 
 }
@@ -446,17 +448,22 @@ header.bg{
 }
 
 .parcerias{
-  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5rem;
+  gap: 5rem;
 }
 
 #parceria-img{
-  width: 510px;
+  width: 400px;
 }
 
 
 /* separação */
 hr {
   margin: 80px 0;
+  margin-top: 8rem;
 }
 
 /* fale conosco */
