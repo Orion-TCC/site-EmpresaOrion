@@ -95,9 +95,11 @@ header.bg{
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
   transition: 0.3s ease-in-out;
+  z-index: 2;
 }
 
 #navbar-list{
@@ -184,7 +186,7 @@ header.bg{
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 100px;
+  padding-top: 10rem;
 }
 
 #titulo-section{
@@ -259,22 +261,23 @@ header.bg{
 
 /* nossos serviços */
 .section-servicos{
-  background-image: url("../images/bg-servicos.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+
+  padding-top: 8rem;
   width: 100%;
-  height: 108vh;
-  margin-top: 60px;
+  
 }
 
-.container-servicos {
+.container-servicos { 
+   background-image: url("../images/bg-servicos.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 12rem;
+  height: 108vh;
+  padding-bottom: 232px;
 }
 
 .aplic-class{
@@ -306,6 +309,10 @@ header.bg{
 
 
 /* nossa equipe */
+.section-equipe{
+  padding-top: 1rem;
+}
+
 .container-equipe{
   display: flex;
   justify-content: center;
@@ -375,12 +382,17 @@ header.bg{
 
 
 /* nossos projetos */
+.section-projetos{
+  padding-top: 12rem;
+}
+
 #headingBlue{
   color: #1189A1;
   font-size: 50px;
 }
 
 .cadastro-button{
+  font-family: 'Raleway Bold', 'Arial';
   margin-top: 30px;
   margin-left: 6px;
   border-radius: 12px;
@@ -410,7 +422,6 @@ header.bg{
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  margin-top: 15rem;
 }
 
 .projeto-class{
@@ -461,7 +472,7 @@ header.bg{
 }
 
 #parceria-img{
-  width: 400px;
+  width: 480px;
 }
 
 
@@ -472,6 +483,10 @@ hr {
 }
 
 /* fale conosco */
+.section-contato{
+  padding-top: 12rem;
+}
+
 .container-contato{
   font-family: "Raleway Bold", Arial;
   display: flex;
@@ -547,7 +562,8 @@ hr {
   opacity: 1;
 }
 
-/* footer */
+
+/* FOOTER */
 .container-footer{
   font-family: "Raleway Bold", Arial;
   display: flex;
