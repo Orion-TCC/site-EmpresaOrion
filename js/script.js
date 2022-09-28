@@ -1,4 +1,24 @@
-/* SCROLL NAVBAR */
+/* SCROLL NAVBAR 
+código do yuri e do leo
+*/
+const header =
+logo = document.getElementById("logoImg"),
+nav = document.getElementById(".navbar"),
+navList = document.querySelector("navbar-list");
+
+function changeNav() {
+    nav.classList.toggle("nav-ativo", scrollY > 0);
+    navList.classList.toggle("nav-list-white", scrollY > 0);
+
+    if (scrollY === 0) {
+        logo.setAttribute("src", "images/logoAzul-semSlogan.svg");
+    } else {
+        logo.setAttribute("src", "images/logoAmarelo-cortado.svg");
+    }
+}
+
+
+/*
 var nav = document.querySelector('nav');
 var imgNav = document.getElementById('logoImg');
 var li = document.querySelector("ul > li:nth-child(1) > a");
@@ -37,3 +57,5 @@ var li5 = document.querySelector("ul > li:nth-child(5) > a");
                 li5.style.color ="#FAFAD2";
             }
         });
+
+        */

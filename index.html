@@ -9,7 +9,6 @@
     <meta name="description" content="A Orion é uma empresa especializada em softwares para empresas de pequeno e médio porte.">
 
     <!-- styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="styles/style.css">
 
@@ -25,16 +24,16 @@
     
     <header id="home">     
         <!-- navbar --> 
-        <nav class="navbar">
+        <nav id="navbar">
             <!-- logo -->
             <a href="#home" class="logo-anim">
-                <img id="logoImg" src="images/logoAmarelo-cortado.svg" alt="Logo da empresa Orion">
+                <img id="logo" src="images/logoAmarelo-cortado.svg" alt="Logo da empresa Orion">
             </a>
             <ul id="navbar-list">
-                <li><a class="nav-item" href="#home">Home</a></li>
                 <li><a class="nav-item" href="#sobre">Sobre</a></li>
+                <li><a class="nav-item" href="#servicos">Serviços</a></li>
+                <li><a class="nav-item" href="#equipe">Nossa equipe</a></li>
                 <li><a class="nav-item" href="#projetos">Projetos</a></li>
-                <li><a class="nav-item" href="#parceria">Parcerias</a></li>
                 <li><a class="nav-item" href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -45,8 +44,8 @@
                 <div class="text-content">
                     <h1 id="heading">Uma referência no <span id="highlight-purple">céu</span>, assim como 
                         na <span id="highlight-purple">tecnologia</span>, inovando cada vez mais</h1>
-                    <h3 class="sub-heading">Especializada no desenvolvimento softwares para empresas de pequeno e médio porte</h3>
-                    <a class="button-anim" href="#contato"><button class="contato-button">Entre em contato</button></a>
+                    <p class="sub-heading">Especializada no desenvolvimento softwares para empresas de pequeno e médio porte</p>
+                    <a href="#contato"><button class="contato-button">Entre em contato</button></a>
                 </div>
             </div>
         </div>
@@ -68,25 +67,25 @@
             <div class="identity-orion">
                 <div class="id-orion">
                     <img class="id-img" src="images/foguete.svg" alt="Imagem de um foguete decolando de um notebook">
-                    <h1 class="id-h1">Visão</h1>
-                    <h4 class="id-text">Ser uma empresa referência no mercado tecnológico, sempre de forma inovativa e transparente.</h4>
+                    <h1 class="id-title">Visão</h1>
+                    <h3 class="id-text">Ser uma empresa referência no mercado tecnológico, sempre de forma inovativa e transparente.</h3>
                 </div>
                 <div class="id-orion">
                     <img class="id-img" src="images/alvo.svg" alt="Imagem de um foguete decolando de um notebook">
-                    <h1 class="id-h1">Missão</h1>
-                    <h4 class="id-text">Desenvolver projetos por meio da tecnologia que solucionem os problemas dos clientes, sendo eficazes e criativos.</h4>
+                    <h1 class="id-title">Missão</h1>
+                    <h3 class="id-text">Desenvolver projetos por meio da tecnologia que solucionem os problemas dos clientes, sendo eficazes e criativos.</h3>
                 </div>
                 <div class="id-orion">
                     <img id="id-img" src="images/valores.svg" alt="Imagem de um foguete decolando de um notebook">
-                    <h1 class="id-h1">Valores</h1>
-                    <h4 class="id-text">Comprometimentos com os clientes;<br> Vínculo com os padrões de ética e integridade;  Inovação.</h4>
+                    <h1 class="id-title">Valores</h1>
+                    <h3 class="id-text">Comprometimentos com os clientes;<br> Vínculo com os padrões de ética e integridade;  Inovação.</h3>
                 </div>
 
             </div> 
         </section>
 
         <!-- nossos serviços -->
-        <section class="section-servicos">
+        <section class="section-servicos" id="servicos">
             <div class="container-servicos">
                 <h1 id="titulo-section">Nossos <span id="highlight-cyan">serviços</span></h1>
                 <div class="line mx-auto"></div>
@@ -111,7 +110,7 @@
         </section>
 
         <!-- nossa equipe-->
-        <section class="section-equipe">
+        <section class="section-equipe" id="equipe">
             <div class="container-equipe">
                 <h1 id="titulo-section">Nossa <span id="highlight-cyan">equipe</span></h1>
                 <div class="line mx-auto"></div>
@@ -121,7 +120,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/marina.png" alt="Menina de cabelo castanho claro de óculos, com um piercing na sobrancelha">
                         <h3 class="int-name">Marina Oliveira</h3>
-                        <h5 class="int-function">Desenvolvedora Front-End e UI/UX Designer</h5>
+                        <h4 class="int-function">Desenvolvedora Front-End e UI/UX Designer</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/_marinaliz" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -132,7 +131,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/leandro.png" alt="">
                         <h3 class="int-name">Leandro Coelho</h3>
-                        <h5 class="int-function">Desenvolvedor Full-Stack e Analista</h5>
+                        <h4 class="int-function">Desenvolvedor Full-Stack e Analista</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/ordnael_leandro_" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -143,7 +142,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/kauan2.png" alt="">
                         <h3 class="int-name">Kauan Oliveira</h3>
-                        <h5 class="int-function">Desenvolvedor Back-End e DBA</h5>
+                        <h4 class="int-function">Desenvolvedor Back-End e DBA</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/kuamatheus" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -154,7 +153,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/caua.png" alt="Imagem de um foguete decolando de um notebook">
                         <h3 class="int-name">Cauã Mesquita</h3>
-                        <h5 class="int-function">Desenvolvedor Full-Stack e DBA</h5>
+                        <h4 class="int-function">Desenvolvedor Full-Stack e DBA</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/_hcwai" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -165,7 +164,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/camila.png" alt="Imagem de um foguete decolando de um notebook">
                         <h3 class="int-name">Camila Martins</h3>
-                        <h5 class="int-function">Desenvolvedora Front-End e Documentação</h5>
+                        <h4 class="int-function">Desenvolvedora Front-End e Documentação</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/camla_" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -176,7 +175,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/gis.png" alt="Imagem de um foguete decolando de um notebook">
                         <h3 class="int-name">Gislaine Coutinho</h3>
-                        <h5 class="int-function">Desenvolvedora Front-End e Documentação</h5>
+                        <h4 class="int-function">Desenvolvedora Front-End e Documentação</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/gislainecoutinho5808" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -187,7 +186,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/mands.png" alt="Imagem de um foguete decolando de um notebook">
                         <h3 class="int-name">Amanda Emidio</h3>
-                        <h5 class="int-function">Analista e Documentação</h5>
+                        <h4 class="int-function">Analista e Documentação</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/mothlunare" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -198,7 +197,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/jose.png" alt="Imagem de um foguete decolando de um notebook">
                         <h3 class="int-name">José Motta</h3>
-                        <h5 class="int-function">Desenvolvedor Back-End e Tester</h5>
+                        <h4 class="int-function">Desenvolvedor Back-End e Tester</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/ target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -209,7 +208,7 @@
                     <div class="integrantes">
                         <img id="int-img" src="images/damaris.png" alt="Imagem de um foguete decolando de um notebook">
                         <h3 class="int-name">Damaris Kamada</h3>
-                        <h5 class="int-function">Analista e Documentação</h5>
+                        <h4 class="int-function">Analista e Documentação</h4>
 
                         <div class="social-icons">
                             <a id="social-link" href="https://instagram.com/dmk386" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
@@ -268,7 +267,7 @@
                     <h1 id="titulo-section" style="margin-top: 20px;">Fale <span id="highlight-cyan">conosco</span></h1>
                     <div class="line mx-auto"></div>
                         <form id="formulario" action="">
-                            <input type="text" name="" class="input-contato-name" id="" placeholder="Seu nome">
+                            <input type="text" name="" class="input-contato" id="" placeholder="Seu nome">
                             <input type="text" name="" class="input-contato" id="" placeholder="Seu email">
                             <input type="text" name="" class="input-contato" id="" placeholder="Assunto">
                             <textarea type="text" name="" class="input-contato-mensagem" id="" placeholder="Sua mensagem"></textarea>
@@ -280,21 +279,50 @@
     </main>
 
     <!-- footer -->
-    <footer class="container-footer"> 
-            <img id="logo-img" src="images/consAmarela-transparente.svg">
+    <footer class="container-footer">
+        <div class="footer-logo">
+            <img src="images/logoAmarelo-cortado.svg">
             <p id="copyright">Copyright © Orion - 2022</p>
-        <div class="tudo-local">
-            <p id="localizacao">Localização</p>
-            <p id="endereco">R. Feliciano de Mendonça, 290 - Guaianases, São Paulo - SP, 08460-365</p>
-            <p id="contato">Contato</p>
-            <p id="cel">(11) 2551-9484</p>
-            <p id="email">orion.etec@gmail.com</p>
         </div>
+        <div class="footer-menu">
+            <div class="footer-links">
+                <h4>Home</h4>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a href="#sobre">Sobre</a></li>
+                    <li class="footer-list-item"><a href="#servicos">Serviços</a></li>
+                    <li class="footer-list-item"><a href="#equipe">Equipe</a></li>
+                    <li class="footer-list-item"><a href="#projetos">Projetos</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Suporte</h4>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a href="#">Chat</a></li>
+                    <li class="footer-list-item"><a href="#">FAQ</a></li>
+                    <li class="footer-list-item"><a href="#">Telefone</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Localização</h4>
+                <ul class="footer-list">
+                    <li class="footer-list-item"><a href="#">R. Feliciano de Mendonça, 290</a></li>
+                    <li class="footer-list-item">Guaianases - São Paulo, SP</li>
+                    <li class="footer-list-item">08460-365</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-social">
+            <h4>Siga nossas redes sociais!</h4>
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="#"><i class="fa-brands fa-github fa-2xl"></i></a>
+            </div>
+            <p>Ou envie um email para nós</p>
+            <p>orion.etec@email.com</p>
+        </div>
+        
     </footer>
-    
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
     <script src="js/script.js"></script>
 </body>
