@@ -186,7 +186,7 @@ header.bg{
   flex-direction: column;
   align-items: center;
   font-family: "Raleway Bold", Arial;
-  padding-top: 10rem;
+  padding-top: 8.5rem;
 }
 
 #titulo-section{
@@ -227,7 +227,7 @@ header.bg{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 405px;
+  width: 360px;
   height: 520px;
   border-style: solid;
   border-width: 0.5px;
@@ -240,11 +240,11 @@ header.bg{
 }
 
 .id-img{
-  width: 250px;
+  width: 220px;
 }
 
 #id-img{
-  width: 285px;
+  width: 255px;
 }
 
 .id-title{
@@ -255,7 +255,7 @@ header.bg{
 .id-text{
   font-size: 22px;
   text-align: center;
-  margin: 20px 60px 0px 60px;
+  margin: 20px 40px 0px 40px;
 }
 
 
@@ -383,7 +383,7 @@ header.bg{
 
 /* nossos projetos */
 .section-projetos{
-  padding-top: 12rem;
+  padding-top: 8.5rem;
 }
 
 #headingBlue{
