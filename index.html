@@ -265,12 +265,12 @@
                 <div class="form-contato">
                     <h1 id="titulo-section" style="margin-top: 20px;">Fale <span id="highlight-cyan">conosco</span></h1>
                     <div class="line mx-auto"></div>
-                        <form id="formulario" action="">
-                            <input type="text" name="" class="input-contato" id="" placeholder="Seu nome">
-                            <input type="text" name="" class="input-contato" id="" placeholder="Seu email">
-                            <input type="text" name="" class="input-contato" id="" placeholder="Assunto">
-                            <textarea type="text" name="" class="input-contato-mensagem" id="" placeholder="Sua mensagem"></textarea>
-                            <a class="button-anim"><button class="enviar-button">Enviar</button></a>
+                        <form method="post" id="formulario" action="enviarEmail.php">
+                            <input type="text" name="txtNome" class="input-contato" id="" placeholder="Seu nome">
+                            <input type="text" name="txtEmail" class="input-contato" id="" placeholder="Seu email">
+                            <input type="text" name="txtAssunto" class="input-contato" id="" placeholder="Assunto">
+                            <textarea type="text" name="txtMensagem" class="input-contato-mensagem" id="" placeholder="Sua mensagem"></textarea>
+                            <a class="button-anim"><button type="submit" class="enviar-button">Enviar</button></a>
                         </form>      
                 </div>  
             </div>
