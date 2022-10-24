@@ -330,7 +330,6 @@ header.bg{
   margin-top: 40px;
   justify-content: center;
   gap: 50px;
-  padding: 0 200px 0 200px;
 }
 
 .integrantes{
@@ -338,8 +337,8 @@ header.bg{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 460px;
+  width: 275px;
+  height: 365px;
   border-style: solid;
   border-width: 0.5px;
   border-color: #e4e4e4;
@@ -354,7 +353,7 @@ header.bg{
 }
 
 #int-img{
-  width: 180px;
+  width: 160px;
 }
 
 .int-function{
@@ -366,7 +365,7 @@ header.bg{
 .social-icons{
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 20px;
   color: #6f4a9f;
   margin-top: 30px;
 }
