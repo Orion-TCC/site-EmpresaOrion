@@ -329,9 +329,7 @@ header.bg{
   flex-shrink: 1;
   margin-top: 40px;
   justify-content: center;
-  gap: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  gap: 40px;
 }
 
 .integrantes{
@@ -385,6 +383,7 @@ header.bg{
 /* nossos projetos */
 .section-projetos{
   padding-top: 8.5rem;
+  margin-top: 4rem;
 }
 
 #headingBlue{
@@ -484,7 +483,7 @@ hr {
 
 /* fale conosco */
 .section-contato{
-  padding-top: 12rem;
+  padding-top: 10rem;
 }
 
 .container-contato{
