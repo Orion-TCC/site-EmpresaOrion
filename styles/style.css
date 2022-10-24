@@ -326,7 +326,6 @@ header.bg{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-shrink: 1;
   margin-top: 40px;
   justify-content: center;
   gap: 40px;
