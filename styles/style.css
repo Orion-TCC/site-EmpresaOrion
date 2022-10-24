@@ -330,6 +330,8 @@ header.bg{
   margin-top: 40px;
   justify-content: center;
   gap: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .integrantes{
